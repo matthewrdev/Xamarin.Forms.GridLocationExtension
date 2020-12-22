@@ -89,3 +89,4 @@ While stable and tested, it is **not** recommended that you use this code in you
  * These extensions do not have complete API documentation.
  * The extensions have no error logging to assist you in diagnosing runtime issues.
  * The extensions use reflection to perform the location and span calculations. This may have adverse runtime performance impacts.
+ * The extensions execute a Xamarin.Forms internal API with the use of reflection. Unless Xamarin.Forms exposes the relevant APIs, this methodology may break at any point in the future.
