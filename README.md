@@ -86,6 +86,6 @@ If you like this work and would like to see it continue, please raise an issue t
 
 While stable and tested, it is **not** recommended that you use this code in your production apps for the following reasons:
 
- * These extensions are
+ * These extensions do not have complete API documentation.
  * The extensions have no error logging to assist you in diagnosing runtime issues.
  * The extensions use reflection to perform the location and span calculations. This may have adverse runtime performance impacts.
