@@ -21,6 +21,8 @@ See:
  * [GridLocationExtension](GridLocationMarkupExtension/GridLocationExtension.cs)
  * [GridSpanExtension](GridLocationMarkupExtension/GridSpanExtension.cs)
 
+ ![Using the GridLocation and GridSpan markup extensions](img/example-image.png)
+
 ## The Problem With Grids In Xamarin.Forms
 
 Grids, while powerful, have one fundamental drawback; we place controls using 0-based indices. Consider the following code:
