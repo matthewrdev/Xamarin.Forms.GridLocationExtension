@@ -2,7 +2,7 @@
 
 **🚨🚨🚨Experimental: Not recommended for production apps🚨🚨🚨**.
 
-Specify the grid locations by name for simpler, more maintainable XAML.
+Specify grid locations by name for simpler, more maintainable XAML.
 
 See:
 
