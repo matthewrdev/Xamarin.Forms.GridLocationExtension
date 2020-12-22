@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridLocationMarkupExtension.MainPage"
+             xmlns:local="clr-namespace:GridLocationMarkupExtension"
+             Padding="10,70">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="titleRow"  Height="Auto"/>
+            <RowDefinition x:Name="dividerRow" Height="Auto"/>
+            <RowDefinition x:Name="contentRow" Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="Xamarin Developer Summit"
+               FontSize="Large"
+               Grid.Row="{local:GridLocation titleRow}" />
+
+        <ContentView HeightRequest="2"
+                     Margin="-10,0"
+                     BackgroundColor="Gray"
+                     Grid.Row="{local:GridLocation dividerRow}" />
+        
+        <StackLayout Orientation="Vertical"
+                     Grid.Row="{local:GridLocation contentRow}"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+            <Image WidthRequest="180" HeightRequest="180" Source="xds"/>
+            
+            <Button Text="Continue..."/>
+
+        </StackLayout>
+
+        <ActivityIndicator VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           IsRunning="True"
+                           Grid.RowSpan="{local:GridSpan From=titleRow, To=contentRow}" />
+
+    </Grid>
+
+</ContentPage>
