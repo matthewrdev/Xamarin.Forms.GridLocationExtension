@@ -1,6 +1,6 @@
 # Xamarin.Forms Grid Markup Extension
 
-**🚨🚨🚨Experimental: Not recommended for production apps🚨🚨🚨**.
+**🚨Experimental🚨**.
 
 Specify grid locations by name for simpler, more maintainable XAML.
 
