@@ -4,11 +4,6 @@
 
 Specify grid locations by name for simpler, more maintainable XAML.
 
-See:
-
- * [GridLocationExtension](GridLocationMarkupExtension/GridLocationExtension.cs)
- * [GridSpanExtension](GridLocationMarkupExtension/GridSpanExtension.cs)
-
 **Before**
 
 ```
@@ -20,6 +15,11 @@ See:
 ```
 <Label Grid.Row="{local:GridLocation titleRow}"/>
 ```
+
+See:
+
+ * [GridLocationExtension](GridLocationMarkupExtension/GridLocationExtension.cs)
+ * [GridSpanExtension](GridLocationMarkupExtension/GridSpanExtension.cs)
 
 ## The Problem With Grids In Xamarin.Forms
 
